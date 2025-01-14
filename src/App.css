@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerContainer {
+  background-color: red;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBox {
+  width: 500px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.bodyContainer {
+  /* Corrected the spelling */
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Six columns */
+  gap: 20px;
+  justify-content: center;
+}
+
+.cardContainer {
+  /* Corrected the spelling */
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countryImage {
+  height: 70px;
+  width: 70px;
+}
+
+.cardContainer p {
+  font-weight: 500;
+}
